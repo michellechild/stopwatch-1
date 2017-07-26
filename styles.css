@@ -1,0 +1,21 @@
+body {
+  background-color: #333;
+  color: #bbb;
+  font-family: Helvetica;
+  text-align: center;
+}
+
+.elapsed-time {
+  font-weight: bold;
+  font-size: 16vw;
+}
+
+.hours::after, .minutes::after {
+content:':';
+padding-left: 40px;
+}
+
+button {
+  font-size: 16vw;
+  margin: 30px;
+}
